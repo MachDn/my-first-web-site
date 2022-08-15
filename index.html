@@ -3,6 +3,42 @@
 <head>
 <title>밍구둥에 대하여</title>
 <meta charset="utf-8">
+<style>
+a{
+  color:blue;
+  text-decoration: none;
+ }
+.saw{
+  color: gray;
+}
+#active{
+  color:red;
+}
+h1{
+  font-size:45px;
+  text-align: center;
+  border-bottom:3px solid gray;
+  margin:0;
+  padding:20px;
+}
+ol{
+  border-right: 3px solid gray;
+  width:200px;
+  margin:0;
+  padding:20px 20px 400px;
+}
+#grid{
+  display grid;
+  margin: 0
+  grid-template-columns: 1fr 1fr;
+}
+screen width < 800px
+@media(max-width800px){
+  #grid{
+    display: block;
+  }
+}
+</style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJF4THKMRX"></script>
 <script>
@@ -15,16 +51,27 @@
 </head>
 <body>
 <h1><a href="index.html">밍구밍구</a></h1>
-<p>Welcome 밍구밍구</p>
-<p>본 페이지는 전설속의 밍구밍구에 관한 내용을 담은 페이지 입니다.</p>
+
 <ol>
 <li><a href="1.html">밍구둥이란 무엇인가?</a></li>
 <li><a href="2.html">밍구둥의 특징</a></li>
 <li><a href="3.html">밍구둥의 비밀</a></li>
 </ol>
-<p>
-<iframe width="942" height="530" src="https://www.youtube.com/embed/B1CPE6WWsAQ" title="Cute baby animals Videos Compilation cutest moment of the animals - Cutest Puppies #2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+<!--
+<ol>
+<li><a href="1.html"><font color="red">밍구둥이란 무엇인가?</font></a></li>
+<li><a href="2.html"><font color="orange">밍구둥의 특징</font></a></li>
+<li><a href="3.html"><font color="blue">밍구둥의 비밀</font></a></li>
+</ol>
+-->
+
+<div id="grid" style="position: relative; left: 300px; top: -420px;">
+<iframe width="450" height="315.8" margin="o" src="https://www.youtube.com/embed/B1CPE6WWsAQ" title="Cute baby animals Videos Compilation cutest moment of the animals - Cutest Puppies #2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Welcome 밍구밍구</p>
+<p>본 페이지는 전설속의 밍구밍구에 관한 내용을 담은 페이지 입니다.</p>
+</div>
+
+
 <p>
   <div id="disqus_thread"></div>
 <script>

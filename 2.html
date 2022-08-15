@@ -3,14 +3,55 @@
 <head>
 <title>밍구둥에 대하여</title>
 <meta charset="utf-8">
-</head>
+<style>
+a{
+  color:blue;
+  text-decoration: none;
+ }
+.saw{
+  color: gray;
+}
+#active{
+  color:red;
+}
+h1{
+  font-size:45px;
+  text-align: center;
+  border-bottom:3px solid gray;
+  margin:0;
+  padding:20px;
+}
+ol{
+  border-right: 3px solid gray;
+  width:200px;
+  margin:0;
+  padding:20px 20px 400px;
+}
+#grid{
+  display grid;
+  margin: 0
+  grid-template-columns: 1fr 1fr;
+}
+screen width < 800px
+@media(max-width800px){
+  #grid{
+    display: block;
+  }
+  }
+
+  div{
+ position: relative; left: 300px; top: -490px;
+  }
+}
+</style></head>
 <body>
 <h1><a href="index.html">밍구밍구</a></h1>
 <ol>
-<li><a href="1.html">밍구둥이란 무엇인가?</a></li>
-<li><a href="2.html">밍구둥의 특징</a></li>
-<li><a href="3.html">밍구둥의 비밀</a></li>
+<li><a href="1.html"calss="saw">밍구둥이란 무엇인가?</a></li>
+<li><a href="2.html"calss="saw" id= "active">밍구둥의 특징</a></li>
+<li><a href="3.html"class="saw">밍구둥의 비밀</a></li>
 </ol>
+<div>
 <h2>밍구둥의 특징</h2><h3>1. 성격</h3>매우 차분하며 매사에 신중하다. 세심한 면모를 갖고있다. 일처리가 꼼꼼하다.
 <h3>2. 음식취향</h3>
 <p>곱창전골을 제일 좋아한다.</p>
@@ -20,5 +61,6 @@
 <p style="margin-top:30px;">특히 겨울철 과일 중 귤을 좋아하는데 껍데기를 매우 꼼꼼하게 발라먹는 습관을 갖고 있다. 정말 좋아하는것
 들은 직접 발라먹기도하는 모습이다.</p>또한 해산물 같은 경우 먹기 까다로운 것들을 발라주면
 정말 잘 먹는 모습을 볼 수 있다. 너무 귀엽다.
+</div>
 </body>
 </html>
